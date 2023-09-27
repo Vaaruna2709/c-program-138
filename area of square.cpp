@@ -6,6 +6,6 @@ int main(){
 	printf("enter a:");
 	scanf("%d",&a);
 	b = a*a;
-	printf("%d", b);
+	printf("Area of the square is %d", b);
 	return 0;
 }
