@@ -11,10 +11,10 @@ int main(){
 	d = a*b;
 	e = a/b;
 	f = a-b;
-	printf("%d\n",c);
-	printf("%d\n",d);
-	printf("%d\n",f);
-	printf("%d\n",e);
+	printf("a+b is %d\n",c);
+	printf("a*b is %d\n",d);
+	printf("a/b is %d\n",f);
+	printf("a-b is %d\n",e);
 	return 0;
 	
 }
