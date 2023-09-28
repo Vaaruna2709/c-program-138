@@ -6,13 +6,13 @@ int main(){
 	printf("enter 3 values:");
 	scanf("%d%d%d",&a,&b,&c);
 	if(a>b && a > c)
-	{printf("a is the greatest");
+	{printf("%d is the greatest",a);
 	}
 	else if (b>c && b>a)
-	{printf("b is the greatest");
+	{printf("%d is the greatest",b);
 	}
 	else
-	{ printf("C is the greatest");
+	{ printf("%d is the greatest",c);
 	}
 	return 0;
 }
