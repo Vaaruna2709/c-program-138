@@ -2,12 +2,10 @@
 
 int main(){
 	int n;
-	n=5;
+	printf("enter number of rows:");
+	scanf("%d",&n);
 	for(int i =0;i<n;i++){
-		for(int j=0;j<2*(n-1)-1;j++){
-			printf(" ");
-		}
-		for(int k =0;k<=i;k++){
+		for(int k =0;k<1+i;k++){
 		
 		printf("*");
 	}
