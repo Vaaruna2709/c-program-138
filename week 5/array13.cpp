@@ -14,10 +14,10 @@ int main(){
 	for(int i=0;i<n;i++){
 		for(j=i+1;j<n;j++){
 			s=a[i]+a[j];
-			if(k==s)
+			if(k==s){
 			printf("the pair is %d and %d",a[i],a[j]);
 			t++;
-		}
+		}}
 	}
 	
 	if(t==0)
