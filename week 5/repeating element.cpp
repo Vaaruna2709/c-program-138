@@ -7,15 +7,19 @@ int main(){
 	printf("enter the array elements:");
 	for(int i=0;i<n;i++)
 	scanf("%d",&a[i]);
-    int t=0;
+    int t=0,c=0;
     for(int i=0;i<n;i++){
     	for(int j=i+1;j<n;j++){
     		if(a[j]==a[i]){
     			printf("%d %d",i,a[i]);
-    			t++;
+    			c++;
+			t++;
     			break;
 			}
 		}
+	    if(c==1)
+            break;
+	    
 	}
 	if(t==0)
 	printf("no repeating element");
